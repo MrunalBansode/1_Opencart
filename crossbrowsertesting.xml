@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Opencart_Suite" parallel = "tests">
+
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <!-- <class name="test_cases.Tc_001_AccountRegistration"/>
+           <class name="test_cases.Tc_002_LoginTest"/>   
+           <class name="test_cases.Tc_004_SearchProduct"/> 
+           <class name="test_cases.Tc_005_AddtocartTest"/>  -->
+           <class name="test_cases.Tc_006_EndtoEndTesting"/>  
+    </classes>
+  </test> 
+  
+ <test thread-count="5" name="EdgeTest">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+       <!--<class name="test_cases.Tc_001_AccountRegistration"/>
+           <class name="test_cases.Tc_002_LoginTest"/>   
+           <class name="test_cases.Tc_004_SearchProduct"/> 
+           <class name="test_cases.Tc_005_AddtocartTest"/> -->
+           <class name="test_cases.Tc_006_EndtoEndTesting"/>  
+    </classes>
+  </test> 
+  
+  
+</suite> 
