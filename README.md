@@ -4,7 +4,8 @@ Domain : E-Commerce
 
 Desciption : Opencart is an e-commerce software online shopping application, It organizes Online Shopping busines opertions like Product promotions, selling products, and shipping goods etc. It has two interfaces Admin Interface and User Interface. I test the user Inderface
 
-Modules :  1. Registration Module
+Modules :
+           1. Registration Module
            2. Login Module
            3. Products Browser Module
            4. Product Search Module
